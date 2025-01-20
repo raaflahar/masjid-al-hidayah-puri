@@ -22,7 +22,7 @@ export default function Hero(){
                     </div>
                     <div className="w-full sm:w-1/2 self-center flex flex-col items-center px-2 sm:flex-row sm:justify-end sm:px-5">
                         <img 
-                        src="src\img\heading.png" 
+                        src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/heading.png?raw=true" 
                         alt="Masjid Al-Hidayah" 
                         className="w-full max-w-md sm:max-w-3xl rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
                         />

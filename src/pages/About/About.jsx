@@ -31,7 +31,7 @@ import { useState, useEffect } from 'react';
                         <div 
                         className={`py-6 mx-auto transition-transform duration-1000 ease-in-out ${isVisible ? 'transform scale-100 opacity-100' : 'transform scale-75 opacity-0'}`}
                         id="about-image">
-                            <img src="src\img\about2.png" alt="Beranda Masjid" className="w-full max-w-lg rounded-lg shadow-lg sm:max-w-xl" />
+                            <img src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/about2.png?raw=true" alt="Beranda Masjid" className="w-full max-w-lg rounded-lg shadow-lg sm:max-w-xl" />
                         </div>
                         <div className='flex flex-col justify-center items-center border-2 border-secondary rounded-lg mx-auto max-w-lg sm:max-w-2xl'>
                             <div id="visi" className='mx-auto text-center pt-2 pb-3 px-2'>
