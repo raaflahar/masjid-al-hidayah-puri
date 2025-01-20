@@ -7,7 +7,8 @@ export default function Footer() {
         <p className="font-md text-white text-md">
           &copy; 2024 Masjid Al-Hidayah. All Rights Reserved.
         </p>
-        <p className="font-md text-white text-sm sm:text-md">Perum Taman Puri Sartika, Sukorejo, Kota Semarang, Jawa Tengah 50221</p>
+        <p className="font-md text-white text-md">Perum Taman Puri Sartika, Sukorejo,</p>
+        <p className="font-md text-white text-md">Kota Semarang, Jawa Tengah 50221</p>
       </footer>
     );
   }

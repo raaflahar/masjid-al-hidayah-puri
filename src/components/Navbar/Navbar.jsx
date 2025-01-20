@@ -86,14 +86,14 @@ export default function Navbar(){
                         </a>
                     </div>
                     <div className="flex-col px-4 items-end justify-end py-1">
-                        <h2 className="text-lg font-semibold text-black">Waktu Sholat Terdekat</h2>
+                        <h2 className="text-md font-semibold text-black sm:text-lg">Waktu Sholat Terdekat</h2>
                         {currentPrayer ? (
                             <p className="text-sm text-black">{currentPrayer}</p>
                         ) : (
                             <p className="text-sm text-gray-500">Memuat...</p>
                         )}
                     </div>
-                    <div className="flex items-center px-28 lg:hidden">
+                    <div className="flex items-center px-28 sm:hidden">
                         <button
                         id="hamburger"
                         name="hamburger"
