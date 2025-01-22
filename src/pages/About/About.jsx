@@ -44,7 +44,7 @@ import { useState, useEffect } from 'react';
                                 <div className='text-center'>
                                     <ol className='font-semibold text-lg text-white text-start sm:text-center sm:text-xl'>
                                         <li className='py-1'>Menjadikan masjid sebagai pusat ibadah yang aman, nyaman, dan dirindukan masyarakat</li>
-                                        <li className='py-1'>Menerapkan pengelolaan masjid yang modern, berkompeten, serta berawasan lingkungan</li>
+                                        <li className='py-1'>Menerapkan pengelolaan masjid yang modern, berkompeten, serta berwawasan lingkungan</li>
                                         <li className='py-1'>Meningkatkan kesejahteraan masyarakat melalui fungsi sosial masjid sebagai solusi permasalahan umat</li>
                                     </ol>
                                 </div>

@@ -76,7 +76,10 @@ export default function Navbar(){
                     </div>
                     <div name="menu-bar" className="px-4 sm:flex hidden">
                         <a href="#about" className="website-menu">
-                            Visi Misi
+                            Tentang Kami
+                        </a>
+                        <a href="#news" className="website-menu">
+                            Berita
                         </a>
                         <a href="#profile" className="website-menu">
                             Susunan Pengurus
@@ -109,7 +112,12 @@ export default function Navbar(){
                         <ul className="flex flex-col items-center py-4">
                             <li className="py-2">
                                 <a href="#about" className="text-black hover:text-secondary">
-                                    Visi Misi
+                                    Tentang Kami
+                                </a>
+                            </li>
+                            <li className="py-2">
+                                <a href="#news" className="text-black hover:text-secondary">
+                                    Berita
                                 </a>
                             </li>
                             <li className="py-2">
