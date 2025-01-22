@@ -11,14 +11,14 @@ export default function News(){
                 <div id="content" className="flex flex-wrap">
                     <div id="berita" className="p-6">
                         <img 
-                        src="src\img\berita-satu.jpg" 
+                        src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/berita-satu.jpg?raw=true" 
                         alt="Pertemuan Rutin Pengurus Masjid" 
                         className="w-[700px] max-w-md rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl"/>
                         <h1 className="font-semibold text-white text-md py-2 sm:text-xl">Pertemuan Rutin Pengurus Masjid Al-Hidayah</h1>
                     </div>
                     <div id="berita" className="p-6">
                         <img 
-                        src="src\img\pamflet.png" 
+                        src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/pamflet.png?raw=true" 
                         alt="Acara Masjid" 
                         className="w-[700px] max-w-md rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl"/>
                         <h1 className="font-semibold text-white text-md py-2 sm:text-xl">Pengajian Umum Dalam Rangka Isra' Mi'raj</h1>
