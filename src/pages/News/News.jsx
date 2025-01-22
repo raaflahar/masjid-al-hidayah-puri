@@ -14,7 +14,7 @@ export default function News(){
                         src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/berita-satu.jpg?raw=true" 
                         alt="Pertemuan Rutin Pengurus Masjid" 
                         className="w-[700px] max-w-md rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl"/>
-                        <h1 className="font-semibold text-white text-md py-2 sm:text-xl">Pertemuan Rutin Pengurus Masjid Al-Hidayah</h1>
+                        <h1 className="font-semibold text-white text-md py-2 sm:text-xl">Rapat Kerja DKM Masjid Al-Hidayah</h1>
                     </div>
                     <div id="berita" className="p-6">
                         <img 
