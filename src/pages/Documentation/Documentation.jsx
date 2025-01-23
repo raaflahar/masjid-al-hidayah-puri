@@ -10,7 +10,6 @@ export default function Documentation(){
         "/img/6.jpg",
         "/img/7.jpg",
         "/img/8.jpg",
-        "/img/9.jpg",
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);

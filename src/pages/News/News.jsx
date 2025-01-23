@@ -32,7 +32,7 @@ export default function News(){
                     </div>
                     <div id="berita" className="p-6">
                         <img 
-                        src="src\img\pamflet.png" 
+                        src="/img/pamflet.png" 
                         alt="Acara Masjid" 
                         className="w-[700px] max-w-md rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl"/>
                         <h1 className="font-semibold text-white text-md py-2 sm:text-xl">Pengajian Umum Dalam Rangka Isra' Mi'raj</h1>
