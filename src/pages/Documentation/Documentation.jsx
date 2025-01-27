@@ -33,7 +33,7 @@ export default function Documentation(){
                 </div>
                 <div className='flex flex-col items-center'>
                     <div>
-                        <img src={photos[currentIndex]} alt={`Photo ${currentIndex+1}`} className="w-[600px] h-[400px] rounded-lg shadow-lg p-2"/>
+                        <img src={photos[currentIndex]} alt={`Photo ${currentIndex+1}`} className="phone:w-[500px] phone:h-[300px] max-w-4xl rounded-lg shadow-lg p-2"/>
                     </div>
                     <div className='flex justify-between mt-4'>
                         <button onClick={prevPhoto} className='px-4 py-2 bg-secondary text-white rounded-lg hover:bg-gray-800 transition duration-300 m-2'>
