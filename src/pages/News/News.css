@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .title {
-    @apply font-bold text-white text-base text-center sm:text-lg;
+    @apply font-bold text-white text-sm text-center sm:text-lg;
 }
 
 .paragraph {
-    @apply font-semibold text-white text-base sm:text-lg;
+    @apply font-semibold text-white text-xs sm:text-lg;
 }

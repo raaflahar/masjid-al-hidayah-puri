@@ -10,74 +10,74 @@ export default function Profile(){
                     <div id="container" className="flex flex-col items-center border-2 border-secondary py-4 px-4 rounded-lg shadow-lg">
                         <div id="container-ketua" className="flex w-full max-w-4xl justify-center">
                             <div id="pembina" className="bg-white rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 text-center sm:p-6">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Pembina</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Ahmad Dhuha</p>
-                                <p className="text-lg font-semibold sm:text-xl">H. Arif Muktiono</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Pembina</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Ahmad Dhuha</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">H. Arif Muktiono</p>
                             </div>
                             <div id="ketua" className="bg-white rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 text-center sm:p-6">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Ketua Ta'mir</h1>
-                                <p className="text-lg font-semibold sm:text-xl">H. Parizal</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Ketua Ta'mir</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">H. Parizal</p>
                             </div>
                         </div>
                         <div id="wakil-ketua" className="bg-white rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:p-6 sm:my-5">
-                            <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Wakil Ketua Ta'mir</h1>
-                            <p className="text-lg font-semibold sm:text-xl">Nanang Junaidi</p>
+                            <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Wakil Ketua Ta'mir</h1>
+                            <p className="text-lg font-semibold sm:text-xl phone:text-xs">Nanang Junaidi</p>
                         </div>
                         <div id="sekretaris" className="flex">
                             <div id="sekretaris" className="bg-white rounded-lg p-2 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:p-6 sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Sekretaris</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Dwiyono Arifiyanto</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sekretaris</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Dwiyono Arifiyanto</p>
                             </div>
                             <div id="wakil-sekretaris" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Wakil Sekretaris</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Sodik</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Wakil Sekretaris</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Sodik</p>
                             </div>
                         </div>
                         <div id="bendahara" className="flex">
                             <div id="bendahara" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Bendahara</h1>
-                                <p className="text-lg font-semibold sm:text-xl">H. Hari Kusworo</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Bendahara</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">H. Hari Kusworo</p>
                             </div>
                             <div id="wakil bendahara" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Wakil Bendahara</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Suyoko</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Wakil Bendahara</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Suyoko</p>
                             </div>
                         </div>
                         <div id="sie">
                             <div id="sie-pendidikan-peribadatan" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Sie Pendidikan & Peribadatan</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Slamet Riyadi</p>
-                                <p className="text-lg font-semibold sm:text-xl">Mudhofar</p>
-                                <p className="text-lg font-semibold sm:text-xl">H. Handoko</p>
-                                <p className="text-lg font-semibold sm:text-xl">Nugroho Eko Susanto</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sie Pendidikan & Peribadatan</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Slamet Riyadi</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Mudhofar</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">H. Handoko</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Nugroho Eko Susanto</p>
                             </div>
                             <div id="sie-pengembangan-fisik" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Sie Pengembangan Fisik</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Riyono</p>
-                                <p className="text-lg font-semibold sm:text-xl">Wahyu Basuki</p>
-                                <p className="text-lg font-semibold sm:text-xl">Erick Cahyo Prabowo</p>
-                                <p className="text-lg font-semibold sm:text-xl">Abdoel Madjid</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sie Pengembangan Fisik</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Riyono</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Wahyu Basuki</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Erick Cahyo Prabowo</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Abdoel Madjid</p>
                             </div>
                             <div id="sie-phbi" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Sie PHBI & Remaja Masjid</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Agung Wiyono</p>
-                                <p className="text-lg font-semibold sm:text-xl">Rudi Santoso</p>
-                                <p className="text-lg font-semibold sm:text-xl">M. Zakki Akmal, AH.</p>
-                                <p className="text-lg font-semibold sm:text-xl">Adiyanto Wicaksono</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sie PHBI & Remaja Masjid</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Agung Wiyono</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Rudi Santoso</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">M. Zakki Akmal, AH.</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Adiyanto Wicaksono</p>
                             </div>
                             <div id="sie-humas" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Sie Humas & Lembaga</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Parwoto</p>
-                                <p className="text-lg font-semibold sm:text-xl">Tri Yuni Admojo</p>
-                                <p className="text-lg font-semibold sm:text-xl">Tri Budi Wijatmiko</p>
-                                <p className="text-lg font-semibold sm:text-xl">Sutaryo</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sie Humas & Lembaga</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Parwoto</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Tri Yuni Admojo</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Tri Budi Wijatmiko</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Sutaryo</p>
                             </div>
                             <div id="sie-kebersihan" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
-                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl">Sie Kebersihan Masjid</h1>
-                                <p className="text-lg font-semibold sm:text-xl">Agustinus C.</p>
-                                <p className="text-lg font-semibold sm:text-xl">Roy Candra</p>
-                                <p className="text-lg font-semibold sm:text-xl">Andri Kusbiantoro</p>
-                                <p className="text-lg font-semibold sm:text-xl">Alfun Wachidun</p>
+                                <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sie Kebersihan Masjid</h1>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Agustinus C.</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Roy Candra</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Andri Kusbiantoro</p>
+                                <p className="text-lg font-semibold sm:text-xl phone:text-xs">Alfun Wachidun</p>
                             </div>
                         </div>
                     </div>

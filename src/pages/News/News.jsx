@@ -15,14 +15,14 @@ export default function News(){
                         <img 
                         src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/berita-satu.jpg?raw=true" 
                         alt="Pertemuan Rutin Pengurus Masjid" 
-                        className="rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl phone:max-w-[400px]"/>
+                        className="phone:w-[500px] phone:h-[300px] rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
                         <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Rapat Kerja DKM Masjid Al-Hidayah</h1>
                         <div>
                             <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
                             <p className="paragraph">Segala puji bagi Allah SWT, Sholawat serta salam selalu kita dengungkan untuk Baginda Rasulullah SAW.</p>
                             <p className="paragraph">Masjid Al-Hidayah mengadakan Rapat DKM Masjid pada tanggal <span className="text-secondary">19 Januari 2024</span> di Barokah, Sebatur</p>
                             <p className="paragraph my-1">Agenda-agenda yang dilaksanakan antara lain:</p>
-                            <ol className="font-semibold text-white text-base list-decimal ml-10 sm:text-lg">
+                            <ol className="font-semibold text-white text-xs list-decimal ml-10 sm:text-lg">
                                 <li className="paragraph">Pengesahan Kepengurusan Masjid Al-Hidayah periode tahun 2025</li>
                                 <li className="paragraph">Schedule tahunan kegiatan Masjid Al-Hidayah</li>
                                 <li className="paragraph">Pemberian SK Marbot Masjid Al-Hidayah</li>
@@ -34,19 +34,19 @@ export default function News(){
                         <img 
                         src="/img/pamflet.png" 
                         alt="Acara Masjid" 
-                        className="rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl phone:max-w-[400px]"/>
+                        className="phone:w-[500px] phone:h-[300px] rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
                         <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Pengajian Umum Dalam Rangka Isra' Mi'raj</h1>
                         <div>
                             <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
                             <p className="paragraph">Segala puji bagi Allah SWT, Sholawat serta salam selalu kita dengungkan untuk Baginda Rasulullah SAW.</p>
                             <p className="paragraph">Datangilah pengajian akbar dalam rangka Isra' Mi'raj dengan pembicara <span className="text-black">Kyai Gayeng</span> dan dimeriahkan Hadroh Al-Hidayah</p>
                             <p className="paragraph my-1">Waktu & Tempat: </p>
-                            <ul className="font-semibold text-white text-base list-disc ml-10 sm:text-lg">
+                            <ul className="font-semibold text-white text-xs list-disc ml-10 sm:text-lg">
                                 <li className="text-secondary">Masjid Al-Hidayah, Sukorejo, Gunungpati</li>
                                 <li className="text-secondary">Kamis, 23 Januari 2025 (Bakda Sholat Isya')</li>
                                 <li className=" text-secondary">Ustad Ali Makruf, M.Si. (Kyai Gayeng)</li>
                             </ul>
-                            <p className="font-semibold text-center text-white text-base sm:text-lg my-2">"Barang siapa menempuh satu jalan (cara) untuk mendapatkan ilmu, maka Allah pasti mudahkan baginya jalan menuju surga." (HR. Muslim)</p>
+                            <p className="font-semibold text-center text-white text-xs sm:text-lg my-2">"Barang siapa menempuh satu jalan (cara) untuk mendapatkan ilmu, maka Allah pasti mudahkan baginya jalan menuju surga." (HR. Muslim)</p>
                             
                             <p className="title">Wassalamualaikum Warahmatullah Wabaraktuh</p>
                         </div>
