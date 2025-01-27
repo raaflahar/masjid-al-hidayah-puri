@@ -15,8 +15,8 @@ export default function News(){
                         <img 
                         src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/berita-satu.jpg?raw=true" 
                         alt="Pertemuan Rutin Pengurus Masjid" 
-                        className="w-[700px] max-w-md items-center rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl phone:max-w-sm"/>
-                        <h1 className="font-semibold text-white text-md py-2 sm:text-xl">Rapat Kerja DKM Masjid Al-Hidayah</h1>
+                        className="rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl phone:max-w-[400px]"/>
+                        <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Rapat Kerja DKM Masjid Al-Hidayah</h1>
                         <div>
                             <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
                             <p className="paragraph">Segala puji bagi Allah SWT, Sholawat serta salam selalu kita dengungkan untuk Baginda Rasulullah SAW.</p>
@@ -34,8 +34,8 @@ export default function News(){
                         <img 
                         src="/img/pamflet.png" 
                         alt="Acara Masjid" 
-                        className="w-[700px] max-w-md rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl phone:max-w-sm"/>
-                        <h1 className="font-semibold text-white text-md py-2 sm:text-xl">Pengajian Umum Dalam Rangka Isra' Mi'raj</h1>
+                        className="rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:max-w-2xl phone:max-w-[400px]"/>
+                        <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Pengajian Umum Dalam Rangka Isra' Mi'raj</h1>
                         <div>
                             <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
                             <p className="paragraph">Segala puji bagi Allah SWT, Sholawat serta salam selalu kita dengungkan untuk Baginda Rasulullah SAW.</p>
