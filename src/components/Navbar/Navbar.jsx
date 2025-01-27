@@ -74,7 +74,7 @@ export default function Navbar(){
                             Home
                         </a>
                     </div>
-                    <div name="menu-bar" className="px-4 sm:flex hidden">
+                    <div name="menu-bar" className="px-4 hidden sm:flex">
                         <a href="#about" className="website-menu">
                             Tentang Kami
                         </a>
@@ -96,7 +96,7 @@ export default function Navbar(){
                             <p className="text-sm text-gray-500">Memuat...</p>
                         )}
                     </div>
-                    <div className="flex items-center px-28 sm:hidden">
+                    <div className="flex items-center px-16 sm:hidden">
                         <button
                         id="hamburger"
                         name="hamburger"

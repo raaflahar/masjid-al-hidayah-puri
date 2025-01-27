@@ -12,6 +12,11 @@ export default {
         black: '#2C2C2C',
         white: '#F0F0F0'
       },
+
+      screens: {
+        sm: '1280px',
+        phone: {'max' : '640px'},
+      }
     },
   },
   plugins: [],

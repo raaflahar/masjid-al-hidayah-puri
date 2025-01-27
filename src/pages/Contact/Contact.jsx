@@ -8,6 +8,29 @@ export default function Contact(){
                         <h2 className="font-bold text-2xl text-white sm:text-3xl">Masjid Al-Hidayah</h2>
                     </div>
                 </div>
+                <div className="w-full flex justify-center items-center m-2 p-4">
+                    <div>
+                        <h4 className="font-bold text-md text-white text-center sm:text-xl">QRIS</h4>
+                        <img src="/img/QR.jpg" alt="QRIS" className="max-w-sm phone:max-w-[300px] sm:max-w-md rounded-lg shadow-lg"/>
+                    </div>
+                </div>
+                <div className="w-full flex justify-center items-center m-2 p-4">
+                    <div>
+                        <h4 className="font-bold text-md text-white text-center sm:text-xl">Rekening</h4>
+                        <img src="/img/Rekening.jpg" alt="QRIS" className="max-w-sm phone:max-w-[300px] sm:max-w-md rounded-lg shadow-lg"/>
+                    </div>
+                </div>
+                <div className="w-full flex justify-center items-center m-2 p-4">
+                    <div className="text-center">
+                        <h4 className="font-bold text-md text-white text-center sm:text-xl">Kontak Pengurus Masjid</h4>
+                        <button className="bg-secondary text-white font-semibold py-2 px-6 m-4 rounded-lg shadow-lg hover:bg-green-950 hover:shadow-xl transition duration-300 ease-in-out phone:text-sm">
+                            <a href="https://wa.me/08122817351" target="_blank" rel="noopener noreferrer">Hubungi Bapak Rizal</a>
+                        </button>
+                        <button className="bg-secondary text-white font-semibold py-2 px-6 m-4 rounded-lg shadow-lg hover:bg-green-950 hover:shadow-xl transition duration-300 ease-in-out phone:text-sm">
+                            <a href="https://wa.me/081325697290" target="_blank" rel="noopener noreferrer">Hubungi Bapak Nanang</a>
+                        </button>
+                    </div>
+                </div>
                 <div className="flex justify-center items-center mx-2">
                     <div className="mb-3" >
                         <a href="https://www.instagram.com/alhidayah_purisartika/" target="_blank">
@@ -37,6 +60,7 @@ export default function Contact(){
                         </a>
                     </div>
                 </div>
+                
             </div>
         </section>
     )
