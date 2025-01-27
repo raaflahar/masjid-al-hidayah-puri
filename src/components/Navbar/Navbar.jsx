@@ -64,9 +64,9 @@ export default function Navbar(){
     }, [prayerTimes]);
 
     return (
-        <header className={`bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ${
-            isScrolled ? "fixed bg-white" : "absolute"
-          }`}>
+        <header className={`fixed bg-transparent top-0 left-0 w-full flex items-center z-10 ${
+            isScrolled ? "bg-white shadow-md" : "bg-transparent"
+          } transition duration-300 ease-in-out`}>
             <div id="container">
                 <div className="flex items-center justify-between relative">
                     <div className="px-4">
