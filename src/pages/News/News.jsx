@@ -4,50 +4,26 @@ export default function News(){
     return (
         <section id="news" className="bg-primary py-32">
             <div className="flex flex-wrap justify-center items-center">
+                {/* Title */}
                 <div id="title" className="w-full px-4">
                     <div className="max-w-xl mx-auto text-center items-center pb-3">
                         <h4 className="font-semibold text-md text-white sm:text-xl">Berita & Informasi</h4>
                         <h2 className="font-bold text-2xl text-white sm:text-3xl">Masjid Al-Hidayah</h2>
                     </div>
                 </div>
+                {/* Content */}
                 <div id="content" className="flex flex-wrap md:flex-nowrap">
-                    <div id="berita" className="p-6">
+                    <div id="berita" className="p-4">
                         <img 
-                        src="https://github.com/raaflahar/masjid-al-hidayah-puri/blob/main/src/img/berita-satu.jpg?raw=true" 
+                        src="/img/agenda-ramadhan.jpg" 
                         alt="Pertemuan Rutin Pengurus Masjid" 
-                        className="phone:w-[500px] phone:h-[300px] rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
-                        <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Rapat Kerja DKM Masjid Al-Hidayah</h1>
-                        <div>
+                        className="max-w-sm phone:max-w-[300px] sm:max-w-md mx-auto object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
+                        <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Agenda Bulan Ramadhan Masjid Al-Hidayah</h1>
+                        <div className="max-w-2xl sm:w-auto">
                             <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
-                            <p className="paragraph">Segala puji bagi Allah SWT, Sholawat serta salam selalu kita dengungkan untuk Baginda Rasulullah SAW.</p>
-                            <p className="paragraph">Masjid Al-Hidayah mengadakan Rapat DKM Masjid pada tanggal <span className="text-secondary">19 Januari 2024</span> di Barokah, Sebatur</p>
-                            <p className="paragraph my-1">Agenda-agenda yang dilaksanakan antara lain:</p>
-                            <ol className="font-semibold text-white text-xs list-decimal ml-10 sm:text-lg">
-                                <li className="paragraph">Pengesahan Kepengurusan Masjid Al-Hidayah periode tahun 2025</li>
-                                <li className="paragraph">Schedule tahunan kegiatan Masjid Al-Hidayah</li>
-                                <li className="paragraph">Pemberian SK Marbot Masjid Al-Hidayah</li>
-                            </ol>
-                            <p className="paragraph">Wassalamualaikum Warahmatullah Wabaraktuh</p>
-                        </div>
-                    </div>
-                    <div id="berita" className="p-6">
-                        <img 
-                        src="/img/pamflet.png" 
-                        alt="Acara Masjid" 
-                        className="phone:w-[500px] phone:h-[300px] rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
-                        <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Pengajian Umum Dalam Rangka Isra' Mi'raj</h1>
-                        <div>
-                            <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
-                            <p className="paragraph">Segala puji bagi Allah SWT, Sholawat serta salam selalu kita dengungkan untuk Baginda Rasulullah SAW.</p>
-                            <p className="paragraph">Datangilah pengajian akbar dalam rangka Isra' Mi'raj dengan pembicara <span className="text-black">Kyai Gayeng</span> dan dimeriahkan Hadroh Al-Hidayah</p>
-                            <p className="paragraph my-1">Waktu & Tempat: </p>
-                            <ul className="font-semibold text-white text-xs list-disc ml-10 sm:text-lg">
-                                <li className="text-secondary">Masjid Al-Hidayah, Sukorejo, Gunungpati</li>
-                                <li className="text-secondary">Kamis, 23 Januari 2025 (Bakda Sholat Isya')</li>
-                                <li className=" text-secondary">Ustad Ali Makruf, M.Si. (Kyai Gayeng)</li>
-                            </ul>
-                            <p className="font-semibold text-center text-white text-xs sm:text-lg my-2">"Barang siapa menempuh satu jalan (cara) untuk mendapatkan ilmu, maka Allah pasti mudahkan baginya jalan menuju surga." (HR. Muslim)</p>
-                            
+                            <p className="paragraph">Masjid Al-Hidayah Perum Taman Puri Sartika kembali menyambut bulan suci Ramadhan dengan penuh semangat dan kehangatan ukhuwah. Dalam rangka menyambut Ramadhan, Masjid Al-Hidayah akan menyelenggarakan serangkaian kegiatan keagamaan yang meliputi buka puasa bersama, shalat tarawih berjamaah, dan kultum ba'da sholat shubuh. Kegiatan ini tidak hanya bertujuan untuk memperdalam keimanan, tetapi juga meningkatkan solidaritas dan kepedulian sosial antar warga di lingkungan perumahan.</p>
+                            <p className="highlight">"Barangsiapa berpuasa Ramadhan dengan iman dan mengharap pahala dari Allah, maka dosa-dosanya yang telah lalu akan diampuni."
+                            — (HR. Bukhari dan Muslim)</p>
                             <p className="title">Wassalamualaikum Warahmatullah Wabaraktuh</p>
                         </div>
                     </div>
