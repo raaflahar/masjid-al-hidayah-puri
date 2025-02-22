@@ -27,7 +27,7 @@ export default function Contact(){
                             <a href="https://wa.me/08122817351" target="_blank" rel="noopener noreferrer">Hubungi Bapak Rizal</a>
                         </button>
                         <button className="bg-secondary text-white font-semibold py-2 px-6 m-4 rounded-lg shadow-lg hover:bg-green-950 hover:shadow-xl transition duration-300 ease-in-out phone:text-sm">
-                            <a href="https://wa.me/081325697290" target="_blank" rel="noopener noreferrer">Hubungi Bapak Nanang</a>
+                            <a href="https://wa.me/+6281325697290" target="_blank" rel="noopener noreferrer">Hubungi Bapak Nanang</a>
                         </button>
                     </div>
                 </div>
