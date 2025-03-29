@@ -11,5 +11,5 @@
 }
 
 .highlight {
-    @apply font-bold p-4 m-4 border-black text-xs sm:text-lg;
+    @apply font-bold p-2 m-4 border-black text-xs sm:text-lg text-center;
 }

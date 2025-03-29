@@ -27,6 +27,25 @@ export default function News(){
                             <p className="title">Wassalamualaikum Warahmatullah Wabaraktuh</p>
                         </div>
                     </div>
+                    <div id="berita2" className="p-4">
+                        <img 
+                        src="/img/berita-dua.jpg" 
+                        alt="Sholat Idul Fitri" 
+                        className="max-w-sm phone:max-w-[300px] sm:max-w-xs mx-auto object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
+                        <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Sholat Idul Fitri 1446 H</h1>
+                        <div className="max-w-2xl sm:w-auto">
+                            <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
+                            <p className="paragraph">Masjid Al-Hidayah Perum Taman Puri Sartika akan melaksanakan Sholat Idul Fitri yang akan dipimpin oleh Ust. M. Asyrofi, S.Pd.I, AH.</p>
+                            <ul className="highlight">
+                                <li><strong>Tanggal:</strong> Senin, 31 Maret 2025</li>
+                                <li><strong>Jam:</strong> 06.00 WIB</li>
+                                <li><strong>Tempat:</strong> Masjid Al-Hidayah Puri Sartika</li>
+                            </ul>
+                            <p className="paragraph">Diharapkan seluruh jamaah dapat hadir tepat waktu dan membawa perlengkapan sholat masing-masing. Semoga amal ibadah puasa kita diterima oleh Allah SWT. Amin ya rabbal alamin</p>
+                            <p className="highlight">"Segenap pengurus Masjid Al-Hidayah mengucapkan, Minal Aidzin Wal Faidzin, Mohon Maaf Lahir & Batin!"</p>
+                            <p className="title">Wassalamualaikum Warahmatullah Wabaraktuh</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
