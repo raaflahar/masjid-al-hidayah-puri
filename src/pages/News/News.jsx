@@ -13,6 +13,24 @@ export default function News(){
                 </div>
                 {/* Content */}
                 <div id="content" className="flex flex-wrap md:flex-nowrap">
+                    <div id="berita3" className="p-4">
+                        <img 
+                        src="/img/qurban-sapi.jpg" 
+                        alt="Qurban Sapi" 
+                        className="max-w-sm phone:max-w-[300px] sm:max-w-xs mx-auto object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
+                        <h1 className="font-semibold text-white text-md py-2 text-center sm:text-xl">Qurban Masjid Al-Hidayah</h1>
+                        <div className="max-w-2xl sm:w-auto">
+                            <p className="title">Assalamualaikum Warahmatullah Wabaraktuh</p>
+                            <p className="paragraph">Mohon ijin, mumpung Idul Qurban masih 1 bulanan lebih, mohon ijin Panitia Hari Besar Islam masjid Al Hidayah siap mengkoordinir qurban sapi secara kolektif (1ekor sapi= 7 muqorrobin), dengan kriteria sudah kita cantumkan diatas.
+                            </p>
+                            <p className="paragraph">Monggo jama'ah yg berencana qurban kolektif sapi, bisa langsung menghubungi panitia. 
+                                (Minimal booking dulu) agar menjelang hari H bisa mendapatkan jumlah muqorrobin yg pas 7 orang.
+                                Monggo.... kami tunggu</p>
+                            <p className="title">Wassalamualaikum Warahmatullah Wabaraktuh</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="content" className="flex flex-wrap md:flex-nowrap">
                     <div id="berita" className="p-4">
                         <img 
                         src="/img/agenda-ramadhan.jpg" 
