@@ -11,6 +11,7 @@ export default function Documentation(){
         "/img/7.jpg",
         "/img/8.jpg",
         "/img/9.jpg",
+        "/img/jamas-2026.jpeg"
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
