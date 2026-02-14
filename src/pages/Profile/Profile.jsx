@@ -43,7 +43,7 @@ export default function Profile(){
                                 <p className="text-lg font-semibold sm:text-xl phone:text-xs">Suyoko</p>
                             </div>
                         </div>
-                        <div id="sie">
+                        <div id="sie" className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                             <div id="sie-pendidikan-peribadatan" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
                                 <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sie Pendidikan & Peribadatan</h1>
                                 <p className="text-lg font-semibold sm:text-xl phone:text-xs">Slamet Riyadi</p>
@@ -72,6 +72,7 @@ export default function Profile(){
                                 <p className="text-lg font-semibold sm:text-xl phone:text-xs">Tri Budi Wijatmiko</p>
                                 <p className="text-lg font-semibold sm:text-xl phone:text-xs">Sutaryo</p>
                             </div>
+                            <div></div>
                             <div id="sie-kebersihan" className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out mx-2 my-2 text-center sm:my-5">
                                 <h1 className="text-xl font-bold text-primary mb-4 border-b-2 border-primary sm:text-2xl phone:text-base">Sie Kebersihan Masjid</h1>
                                 <p className="text-lg font-semibold sm:text-xl phone:text-xs">Agustinus C.</p>
